@@ -1,3 +1,5 @@
+require 'sprockets/railtie'
+
 class Premailer
   module Rails
     class Railtie < ::Rails::Railtie
